@@ -1,0 +1,39 @@
+.container-navbar {
+  width: 100%;
+  img,
+  svg {
+    vertical-align: middle;
+    width: 20%;
+  }
+}
+
+.navbar-button_profil {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+}
+
+.navbar-button_connect {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.navbar-title {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: white;
+  font-family: "Inter";
+}
+
+.material-symbols-outlined {
+  color: rgb(19, 161, 24);
+  font-size: 20px;
+  margin-inline: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .logo-navbar {
+    width: 30%;
+  }
+}

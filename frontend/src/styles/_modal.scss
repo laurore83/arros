@@ -1,0 +1,31 @@
+.modal-body {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-modal {
+  max-width: 100%;
+  max-height: 100%;
+}
+.cross-close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border-radius: 24px;
+  cursor: pointer;
+  //   etat over du bouton (de la classe cross-close
+  &:hover {
+    background-color: grey;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .modal-body {
+    flex-direction: row;
+    padding: 0;
+  }
+}

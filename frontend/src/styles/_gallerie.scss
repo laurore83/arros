@@ -1,0 +1,29 @@
+.gallerie-card {
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+}
+.gallerie-preview {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: end;
+
+  div {
+    // background-color: rgba(0, 0, 0, 0.45);
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75));
+    color: white;
+    width: 100%;
+    padding: 4px 12px;
+    text-align: left;
+  }
+}

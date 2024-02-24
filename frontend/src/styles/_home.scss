@@ -1,0 +1,211 @@
+.image-container {
+  position: relative;
+}
+
+.home-bg {
+  background: linear-gradient(
+      0deg,
+      rgba(239, 233, 226, 1) 0%,
+      rgba(239, 233, 226, 0.3) 16%
+    ),
+    url("./src/assets/homeImg/visiteImg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.sous-title {
+  margin-left: 20px;
+  margin-block: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.assos {
+  display: flex;
+  margin: 30px;
+}
+.btn-plus {
+  text-align: end;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.home-pres {
+  padding-top: 51px;
+}
+.home-title {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #b2915a;
+}
+
+.slogan {
+  color: #272727;
+  font-weight: bold;
+  font-size: 20px;
+}
+.quisommesns {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  background-color: #272727;
+  color: #b2915a;
+  padding-block: 50px;
+  padding: 30px;
+}
+.presimg {
+  width: 40%;
+  margin-inline: 10px;
+  object-fit: contain;
+}
+
+.logo {
+  width: 40%;
+  margin-right: 10px;
+  object-fit: contain;
+}
+.txt {
+  margin: 30px;
+}
+.dark_bg {
+  background-color: #272727;
+  color: #b2915a;
+}
+.infos {
+  background-color: #272727;
+  color: #bca782;
+}
+.btn-dark {
+  margin: 25px;
+}
+.btn-light {
+  color: #171616;
+}
+.light_bg {
+  color: #171616;
+}
+.card {
+  margin: 40px;
+  border-radius: 0px;
+}
+
+.visite {
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #4e3e21;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.titre-galerie {
+  color: #4e3e21;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.horaires {
+  background-color: #bca782;
+}
+.contact {
+  background-color: #bca782;
+}
+.map {
+  width: 100%;
+}
+.mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.adresse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .home-bg {
+    height: 400px;
+  }
+  // .bt-arros {
+  //   display: flex;
+  // }
+  .slogan {
+    font-size: 30px;
+  }
+  .grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo {
+    width: 60%;
+  }
+  .blk-asso {
+    display: flex;
+    flex-direction: row;
+  }
+  .assos {
+    flex-direction: column;
+  }
+  .sous-title {
+    font-size: 55px;
+  }
+  .btn-plus {
+    margin-right: 40px;
+  }
+  .dark_light {
+    padding-bottom: 100px;
+  }
+  .dark_bg {
+    padding-bottom: 100px;
+  }
+  .bk-visite {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .txt-visite {
+    width: 50%;
+    margin: 30px;
+  }
+  .horaires {
+    display: flex;
+    width: 50%;
+    padding-left: 40px;
+    align-items: center;
+  }
+  .bk-contact {
+    display: flex;
+  }
+  .contact {
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-map {
+    width: 50%;
+  }
+  .map {
+    width: 100%;
+  }
+  .container-map {
+    display: flex;
+    justify-content: space-around;
+  }
+  .adresse {
+    display: none;
+  }
+}

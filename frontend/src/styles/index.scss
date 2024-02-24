@@ -1,0 +1,18 @@
+@import "mdb-react-ui-kit/dist/css/mdb.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "./navbar";
+@import "./home";
+@import "./caroussel";
+@import "./gallerie";
+@import "./form";
+@import "./modal";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: #efe9e2;
+}
